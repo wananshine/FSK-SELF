@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2019Go</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
+
+    <style>
+        [v-cloak] {
+            display: none !important;
+        }
+        .head {
+            position: absolute;
+            width: 44px;
+            height: 44px;
+            display: inline-block;
+            background: #229dff;
+        }
+
+        .head img {
+            width: 100%;
+            height: 100%;
+            vertical-align:top;
+        }
+
+        .head-childer {
+            position: absolute;
+            top: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .head-childer img {
+            /* position:absolute; */
+            /* width: 16px; height: 16px; */
+            width: 22px;
+            height: 22px;
+            /* background: #8a4182; */
+        }
+
+        .textcenter-unset {
+            text-align: left !important;
+        }
+
+        .foxconnbg {
+            position: absolute;
+            float: left;
+            background-color: #dddddd33;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="app">
+        <div class="bg"></div>
+        <div class="star-field">
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+        </div>
+        <div class="container">
+
+            <button @click="addHead">无限添加</button>
+            <button @click="addHeadOne">添加一个</button>
+            <div ref="test" class="maintitle">
+                <div class="star"></div>
+                <div class="title flash"></div>
+                <div class="light"></div>
+            </div>
+
+            <div class="shadow" >
+                <div class="foxconn textcenter-unset">
+                    <div class="foxconnbg"></div>
+                    <div v-cloak v-for="item in headbodyList" class="head" :key="item.hid"
+                        :style="{ left: item.x + 'px', top: item.y + 'px' }">
+                        <transition
+                            @before-enter="beforeEnter"
+                            @enter="enter"
+                            @after-enter="afterEnter"
+                            v-bind:css="false">
+                            <img v-if="item.img" :src="item.img"/>
+                        </transition>
+                        <div v-if="item.children" class="head-childer">
+                            <transition-group name="list" tag="p"
+                                @before-enter="beforeEnter"
+                                @enter="enter"
+                                @after-enter="afterEnter"
+                                v-bind:css="false">
+                                <img v-for="(child, index) in item.children"  :src="child" :key="child+index" alt="">
+                            </transition-group>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div style="background-color: aquamarine">
+                <img v-for="(item, index) in imgList" :key="index" :src="item" alt="">
+            </div> -->
+
+            <div class="subtitle flash"></div>
+        </div>
+
+        <div ref="tempel" style="position: relative; width: 100%; height: 100%;">
+        </div>
+
+    </div>
+
+    <script src="./js/velocity.min.js"></script>
+    <script src="./js/vue.min.js"></script>
+    <script src="./js/axios.min.js"></script>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
