@@ -1,0 +1,35 @@
+
+	{{!-- {{#extend "partials"}}
+		{{#content "head" mode="append"}}
+			<link rel="stylesheet" href="assets/css/kk.css" />
+		{{/content}}
+	{{/extend}} --}}
+		{{!-- {{#content "body"}}
+			<h2>Welcome Home</h2>
+
+			<ul>
+				{{#items}}
+					<li>{{.}}</li>
+				{{/items}}
+			</ul>
+		{{/content}}
+
+		{{#content "foot" mode="prepend"}}
+			<script src="assets/js/analytics.js"></script>
+		{{/content}} --}}
+	
+
+{{#section 'head'}}
+	<!-- we want Google to ignore this page -->
+  <meta name="robots" content="noindex">
+{{/section}}
+<article>
+
+</article>
+{{#section 'jquery'}}
+	<script>
+		$(document).ready(function(){
+			console.log("124")
+		})
+	</script>
+{{/section}}

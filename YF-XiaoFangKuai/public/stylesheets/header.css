@@ -1,0 +1,78 @@
+/**************************************/
+.header {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0px auto;
+  line-height: 50px;
+  overflow: visible;
+}
+.header .head-inner {
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  margin: 0px auto;
+  height: 80px;
+  overflow: visible;
+  font-size: 14px;
+}
+.header .head-inner .logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+  display: table;
+  vertical-align: middle;
+}
+.header .head-inner .logo img {
+  display: block;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.header .head-inner .head-nav {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  width: 56%;
+  font-size: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 6;
+}
+.header .head-inner .head-nav .nav-cell {
+  position: relative;
+  width: calc(25%);
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+}
+.header .head-inner .head-nav .nav-cell:hover {
+  color: #fff;
+  background-color: #0047ab;
+}
+.header .head-inner .head-nav .nav-cell:hover .cell-bar {
+  display: none;
+}
+.header .head-inner .head-nav .nav-cell .cell-bar {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  color: #0047ab;
+  background-color: #fff;
+}
+.header .head-inner .head-nav .nav-cell .cell-bar .bar-li:hover {
+  color: #fff;
+  background-color: #0047ab;
+}
+.header .head-inner .head-nav .nav-current1,
+.header .head-inner .head-nav .nav-current2,
+.header .head-inner .head-nav .nav-current3,
+.header .head-inner .head-nav .nav-current4 {
+  color: #fff;
+  background-color: #0047ab;
+}

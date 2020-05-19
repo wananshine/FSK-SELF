@@ -1,0 +1,25 @@
+/**************************************/
+.footer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0px auto;
+}
+.footer .foot-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0px auto;
+}
+.footer .foot-inner .foot-record {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0px auto;
+  height: 100px;
+  line-height: 100px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+}

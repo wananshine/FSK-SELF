@@ -1,0 +1,80 @@
+// @import "reset.less";
+@import (reference) url(base.less);
+
+/**************************************/
+
+.header{
+	.all;
+	line-height: 50px;
+	//background-color: #f65a5b;
+	overflow: visible;
+	.head-inner{
+		.w-inner;
+		height: 80px;
+		overflow: visible;
+		font-size: 14px;
+		.logo{
+			//background-color: #00b3ee;
+			width: 80px;
+			height: 80px;
+			float: left;
+			display: table;
+			vertical-align: middle;
+			img{
+				display: block;
+				padding: 10px 0px;
+				box-sizing: border-box;
+				cursor: pointer;
+			}
+		}
+		.head-nav{
+			//.poa; right: 238px; top: 0;
+			.poa; right: 0px; top: 0;
+			width: 56%;
+			font-size: 0px;
+			background-color: rgba(255,255,255,0.5);
+			z-index: 6;
+			.nav-cell{
+				.por;
+				width: calc(@full/4);
+				height: 80px;
+				line-height: 80px;
+				display: inline-block;
+				font-size: 16px;
+				text-align: center;
+				cursor: pointer;
+				color: @333;
+				text-decoration: none;
+				&:hover{
+					color: @fff;
+					background-color: @004;
+					.cell-bar{
+						display: none;
+					}
+				}
+				.cell-bar{
+					.poa;
+					display: none;
+					width: @full;
+					left: 0;
+					color: @004;
+					background-color: @fff;
+					.bar-li{
+						&:hover{
+							color: @fff;
+							background-color: @004;
+						}
+					}
+				}
+			}
+			.nav-current1,
+			.nav-current2,
+			.nav-current3,
+			.nav-current4{
+				color: @fff;
+				background-color: @004;
+			}
+		}
+	}
+}
+

@@ -1,0 +1,194 @@
+
+
+
+@000: #000;
+@333: #333;
+@666: #666;
+@fff: #fff;
+@ccc: #ccc;
+
+@1a1a: #1a1a1a;
+@f7f7: #f7f7f7;
+@f5f5: #f5f5f5;
+@f0f0: #f0f0f0;
+@f2f2: #f2f2f2;
+@3939: #393939;
+@fafa: #fafafa;
+@ebeb: #ebebeb; @247: rgba(247, 247, 247, 0.1);
+@5757: #575757;
+@4c4c: #4c4c4c;
+
+@ff0: #ff0000;
+
+@004: #0047ab;
+@068: #0686d8;
+@9ec: #9ecfef;
+
+@de9: #de9c03;
+@eb5: #eb5f27;
+@109: #10986d;
+@d19: #d19a5f;
+
+@w: 1200px;
+@full: 100%;
+
+.por{
+	position: relative;
+}
+.poa{
+	position: absolute;
+}
+.pof{
+	position: fixed;
+}
+.hid{
+	overflow: hidden;
+}
+
+.tagBlock{
+	display: block;
+}
+
+.tagHide{
+	display: none;
+}
+
+//清除浮动
+.clearfix{
+	zoom: 1;
+	&:before {
+		content: " ";
+		display: table;
+	}
+	&:after{
+		content: " ";
+		clear: both;
+		height: 0;
+		visibility: hidden;
+		display: block;
+	}
+}
+
+//设置不换行出现省略号
+.ellipsis{
+	.hid;
+	.por;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+//设置两行出现省略号
+.clamp2{
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+//设置容器
+.flexbox{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.flexitem{
+	//flex: 1;
+	flex-grow: 0;
+	flex-basis: 1px;
+	flex-shrink: 1;
+}
+
+.flexauto{
+	flex-grow: 0;
+	flex-basis: auto;
+	flex-shrink: 1;
+}
+
+.flex1auto{
+	flex-grow: 1;
+	flex-basis: auto;
+	flex-shrink: 1;
+}
+
+.flex1{
+	flex: 1;
+}
+
+.radius(@leftUp: 10px, @rightUp: 10px, @leftBottom: 10px, @rightBottom: 10px){
+	border-top-left-radius: @leftUp;
+	border-top-right-radius: @rightUp;
+	border-bottom-left-radius: @leftBottom;
+	border-bottom-right-radius: @rightBottom;
+}
+
+.translate(@x: -50%, @y: -50%){
+	-webkit-transform: translate(@x, @y);
+	-moz-transform: translate(@x, @y);
+	-ms-transform: translate(@x, @y);
+	-o-transform: translate(@x, @y);
+	transform: translate(@x, @y);
+}
+
+.transition(@prop: all, @dur: 0.5s, @timing: ease, @delay: 0.1s){
+	-webkit-transition: @prop @dur @timing @delay;
+	-moz-transition: @prop @dur @timing @delay;
+	-ms-transition: @prop @dur @timing @delay;
+	-o-transition: @prop @dur @timing @delay;
+	transition: @prop @dur @timing @delay;
+}
+
+.colCenter{
+	.poa; left: 50% ;top: 50%;
+	.translate;
+}
+
+
+.w-inner{
+	.por;
+	.hid;
+	width: @w;
+	margin: 0px auto;
+}
+
+.all{
+	.por;
+	.hid;
+	width: @full;
+	margin: 0px auto;
+}
+
+
+/* Document scrollbar */
+.scrollbar{
+	::-webkit-scrollbar {
+		width: 12px;
+	}
+	::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+		border-radius: 10px;
+	}
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+	}
+	/* Scrollable element */
+	/* Scrollable element */
+	.some-element::webkit-scrollbar {
+	}
+}
+
+
+@keyframes arrowIcon{
+	0% {
+		transform: translateY(0px) rotate(90deg)
+	}
+	50% {
+		transform: translateY(10px) rotate(90deg)
+	}
+	100% {
+		transform: translateY(0px) rotate(90deg)
+	}
+}

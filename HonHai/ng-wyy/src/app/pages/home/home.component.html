@@ -1,0 +1,61 @@
+<div class="home-container">
+
+  <div class="home-carousel">
+    <nz-carousel [nzEffect]="effect">
+      <div nz-carousel-content *ngFor="let item of banners">
+        <a [href]="item.url" target="_blank">
+          <img [src]="item.imageUrl" alt="">
+        </a>
+      </div>
+    </nz-carousel>
+  </div>
+
+  <div class="home-wrap">
+      <div class="w-left">
+        <h1 class="sheet-title">
+          <span class="t-txt">热门推荐</span>
+          <a *ngFor="let tag of tags">
+            {{tag.name}}
+            <i class="line">|</i>
+          </a>
+        </h1>
+        <ul class="sheet-list">
+          <li *ngFor="let sheet of sheets" class="sheet-cell">
+            <div class="sheet-cover">
+              <img [src]="sheet.picUrl" [alt]="sheet.name">
+              <div class="sheet-bottom">
+                <div class="num">
+                  <i nz-icon nzType="customer-service" nzTheme="outline"></i>
+                  <span>{{sheet.playCount}}</span>
+                </div>
+                <i nz-icon nzType="play-circle" nzTheme="outline" class="player"></i>
+              </div>
+            </div>
+            <div class="sheet-name">
+              {{sheet.name}}
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="w-right">
+        <h1>登录</h1>
+
+        <div class="settled-singer">
+          <div class="s-tit">
+            <b>入驻歌手</b>
+          </div>
+          <div class="list">
+            <div class="card" *ngFor="let item of singers">
+              <div class="pic">
+                <img [src]="item.picUrl" alt="item.name">
+              </div>
+              <div class="txt">
+                <b class="ellipse">{{item.name}}</b>
+                <span>专辑数：{{item.albumSize}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
