@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>基于Canvas的Photoshop样式网页涂鸦板插件|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.6.95/css/materialdesignicons.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div id="drawr-container" style="width:100vw;height:100vh;">
+		<canvas class="demo-canvas drawr-test1"></canvas>
+	</div>
+	<input type="file" id="file-picker" style="display:none;">
+	
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="dist/jquery.drawr.combined.js?v=2"></script>
+	<script type="text/javascript">
+
+		$("#drawr-container .demo-canvas").drawr({
+			"enable_tranparency" : true
+		});
+
+		$(".demo-canvas").drawr("start");
+		
+		//add custom save button.
+		var buttoncollection = $("#drawr-container .demo-canvas").drawr("button", {
+			"icon":"mdi mdi-folder-open mdi-24px"
+		}).on("touchstart mousedown",function(){
+			//alert("demo of a custom button with your own functionality!");
+			$("#file-picker").click();
+		});
+		var buttoncollection = $("#drawr-container .demo-canvas").drawr("button", {
+			"icon":"mdi mdi-content-save mdi-24px"
+		}).on("touchstart mousedown",function(){
+			var imagedata = $("#drawr-container .demo-canvas").drawr("export","image/jpeg");
+			var element = document.createElement('a');
+			element.setAttribute('href', imagedata);// 'data:text/plain;charset=utf-8,' + encodeURIComponent("sillytext"));
+			element.setAttribute('download', "test.jpg");
+			element.style.display = 'none';
+			document.body.appendChild(element);
+			element.click();
+			document.body.removeChild(element);
+		});
+		$("#file-picker")[0].onchange = function(){
+			var file = $("#file-picker")[0].files[0];
+			if (!file.type.startsWith('image/')){ return }
+			var reader = new FileReader();
+			reader.onload = function(e) { 
+				$("#drawr-container .demo-canvas").drawr("load",e.target.result);
+			};
+			reader.readAsDataURL(file);
+		};
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        
+        <style type="text/css">
+            body{
+                overflow: hidden;
+            }
+            #canvas{
+                display: block;
+                margin: 0 auto;
+                border: 2px solid #008000;
+                background: url('//gw.alicdn.com/tfs/TB1DKP9zCtYBeNjSspkXXbU8VXa-1920-450.jpg_Q90.jpg') no-repeat;
+                background-size: cover;
+            }
+            *{margin: 0;padding: 0;}
+        </style>
+    </head>
+    <body>
+        
+        <canvas id="canvas" width="800" height="400"></canvas>
+        
+    </body>
+    
+    <script type="text/javascript">
+        
+        var cvs = document.getElementById('canvas');
+        var ctx = cvs.getContext('2d');
+        
+        cvs.width = window.innerWidth;
+        cvs.height = window.innerHeight;
+        
+        var cvsWidth = cvs.width;
+        var cvsHeight = cvs.height;
+        var iNow = false;
+        var r = 30;
+        var num = 0;
+        var img =new Image()
+        img.src="https://img.alicdn.com/tps/i4/TB1BrMTKuL2gK0jSZPhSuuhvXXa.jpg"        
+
+
+        var hastouch = "ontouchstart" in window?true:false,
+            tapstart = hastouch?"touchstart":"mousedown",
+            tapmove = hastouch?"touchmove":"mousemove",
+            tapend = hastouch?"touchend":"mouseup";
+            
+        img.onload = function(){
+            bottomImg();
+            clickDraw();            
+        }
+        function bottomImg(){
+            ctx.drawImage(img,0,0,cvsWidth,cvsHeight)
+        }
+        function clickDraw(){
+            cvs.addEventListener(tapstart,function(e){
+                e.preventDefault();  
+                  
+                x1 = hastouch?e.targetTouches[0].pageX:e.clientX-canvas.offsetLeft;  
+                y1 = hastouch?e.targetTouches[0].pageY:e.clientY-canvas.offsetTop;  
+                  
+                ctx.lineCap = "round";　　//设置线条两端为圆弧  
+                ctx.lineJoin = "round";　　//设置线条转折为圆弧  
+                ctx.lineWidth = r*2;　　  
+                ctx.globalCompositeOperation = "destination-out";  
+                  
+                ctx.save();  
+                ctx.beginPath()  
+                ctx.arc(x1,y1,1,0,2*Math.PI);  
+                ctx.fill();  
+                ctx.restore();                  
+                
+                iNow = true;
+                cvs.addEventListener(tapmove,function(e){
+                    e.preventDefault()
+                    if( iNow ){
+                        var lx = hastouch?e.targetTouches[0].pageX:e.clientX-cvs.offsetLeft;
+                        var ly = hastouch?e.targetTouches[0].pageY:e.clientY-cvs.offsetTop;
+						
+						
+						
+						console.log('e.clientX-cvs.offsetLeft:',cvs, e.clientX-cvs.offsetLeft);
+						console.log('round:',lx, ly);
+                        round(lx,ly)
+                        num++
+                        console.log('num:',num);
+                        num>500?ctx.clearRect(0,0,cvsWidth,cvsHeight):''
+                    }
+                })
+            })
+            cvs.addEventListener(tapend,function(){
+                iNow = false;
+            })
+        }
+        function round(ex,ey){ 
+            x2 = ex 
+            y2 = ey
+              
+            ctx.save();  
+            ctx.moveTo(x1,y1);  
+            ctx.lineTo(x2,y2);  
+            ctx.stroke();  
+            ctx.restore()  
+              
+            x1 = x2;  
+            y1 = y2;             
+        }
+        
+    </script>
+</html>

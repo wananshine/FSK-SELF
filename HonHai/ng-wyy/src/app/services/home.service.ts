@@ -8,6 +8,7 @@ import { map } from "rxjs/internal/operators";
 @Injectable({
   providedIn: ServicesModule
 })
+
 export class HomeService {
 
   constructor(private http: HttpClient, @Inject(API_CONFIG) private url: string) { }

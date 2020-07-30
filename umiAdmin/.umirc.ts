@@ -1,60 +1,58 @@
 import { defineConfig } from 'umi';
 
 export default defineConfig({
-  // base: '/docs/',
-  // publicPath: '/static/',
-  // outputPath:'../layouts',
-  // treeShaking: true,
+
   nodeModulesTransform: {
     type: 'none',
   },
-  plugins: [
-    // ['umi-plugin-react', {
-    //   antd: true,
-    //   dva: true, // 在此处启用 dva
-    //   dynamicImport: false,
-    //   title: 'hero',
-    //   dll: false,
-    //   routes: {
-    //     exclude: [],
-    //   },
-    //   hardSource: false,
-    // }],
-  ],
-  layout: {
-    // 详细配置：https://github.com/ant-design/ant-design-pro-layout/blob/master/README.zh-CN.md
-    // logo: '',  //layout 的 左上角 logo 的 url
-    title: '1243',  //layout 的 左上角 的 title
-    pure: false,   //是否删除掉所有的自带界面
-    loading: true,
-  },
   routes: [
     {
+      exact: true,
       path: '/',
-      component: '@/layouts/BasicLayout', // 指定以下页面的布局
+      component: '@/pages/index',
       routes: [
-        // dashboard
-        // { path: '/', redirect: '/dashboard/analysis' },
-        // {
-        //   path: '/dashboard',
-        //   name: 'dashboard',
-        //   icon: 'dashboard',
-        //   routes: [
-        //     { path: '/dashboard/analysis', name: 'analysis', component: './Dashboard/Analysis' },
-        //     { path: '/dashboard/monitor', name: 'monitor', component: './Dashboard/Monitor' },
-        //     { path: '/dashboard/workplace', name: 'workplace', component: './Dashboard/Workplace' },
-        //   ],
-        // },
-      ],
+        {
+          path: '/',
+          component: '@/layouts/BasicLayout',
+          routes: [
+            { path: '/', component: '@/pages/home/components/index' },
+            { path: '/home', component: '@/pages/home/components/index' },
+            { path: '/users', component: '@/pages/users/component/index' }
+          ]
+        },
+        {
+          path: '/sign',
+          component: '@/layouts/UserLayout'
+        },
+      ]
     },
+
     // {
-    //   path: '/login',
-    //   component: '../layouts/UserLayout',
-    //   routes: [
-    //     { path: '/', name: '', component: '' },
-    //   ]
+    //   exact: true,
+    //   path: '/',
+    //   component: '@/layouts/BasicLayout',
     // },
-    // { path: '/', component: '@/pages/index' },
-    // { exact: true, path: '/user', component: 'user' }
+    // {
+    //   path: '/home',
+    //   component: '@/pages/home/component/index' ,
+    // },
+    // {
+    //   path: '/users',
+    //   component: '@/pages/users/component/index' ,
+    // },
+    // {
+    //   path: '/sign',
+    //   component: '@/layouts/UserLayout' ,
+    //   routes: [
+    //     {
+    //       path: 'login',
+    //       component: '@/pages/login/component/index' ,
+    //     },
+    //     {
+    //       path: '/register',
+    //       component: '@/pages/register/component/index' ,
+    //     }
+    //   ]
+    // }
   ],
 });
