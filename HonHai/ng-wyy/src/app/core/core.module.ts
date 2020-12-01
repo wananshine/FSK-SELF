@@ -31,7 +31,7 @@ registerLocaleData(zh);
 export class CoreModule {
   constructor(@SkipSelf() @Optional() parentModule: CoreModule){
     if(parentModule){
-      throw new Error('CoreModule 只能被appModule陰人藝');
+      throw new Error('CoreModule 只能被appModule引入');
     }
   }
 }

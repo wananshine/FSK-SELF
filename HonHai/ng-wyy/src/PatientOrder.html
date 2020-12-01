@@ -1,0 +1,341 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PatientOrder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <style type="text/css">
+            html {
+                overflow-x: auto;
+                overflow-y: scroll;
+            }
+            body,
+            dl,
+            dt,
+            dd,
+            ul,
+            ol,
+            li,
+            pre,
+            form,
+            fieldset,
+            input,
+            p,
+            blockquote,
+            th,
+            td {
+                font-weight: 400;
+                margin: 0;
+                padding: 0;
+            }
+            h1,
+            h2,
+            h3,
+            h4,
+            h4,
+            h5 {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-color: #FFFFFF;
+                color: #666666;
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 12px;
+                padding: 0 10px;
+                text-align: left;
+            }
+            select {
+                font-size: 12px;
+            }
+            table {
+                border-collapse: collapse;
+            }
+            fieldset,
+            img {
+                border: 0 none;
+            }
+            fieldset {
+                margin: 0;
+                padding: 0;
+            }
+            fieldset p {
+                margin: 0;
+                padding: 0 0 0 8px;
+            }
+            legend {
+                display: none;
+            }
+            address,
+            caption,
+            em,
+            strong,
+            th,
+            i {
+                font-style: normal;
+                font-weight: 400;
+            }
+            table caption {
+                margin-left: -1px;
+            }
+            hr {
+                border-bottom: 1px solid #FFFFFF;
+                border-top: 1px solid #E4E4E4;
+                border-width: 1px 0;
+                clear: both;
+                height: 2px;
+                margin: 5px 0;
+                overflow: hidden;
+            }
+            ol,
+            ul {
+                list-style-image: none;
+                list-style-position: outside;
+                list-style-type: none;
+            }
+            caption,
+            th {
+                text-align: left;
+            }
+            q:before,
+            q:after,
+            blockquote:before,
+            blockquote:after {
+                content: "";
+            }
+
+
+            .container {
+                padding: 48px;
+                width: 960px;
+                margin: auto;
+                font-family: Avenir, Helvetica, Arial, sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            /*
+            ** .header
+            */
+            .container .header {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 14px;
+            }
+            .container .header .left {
+                color: #123b59;
+            }
+            .container .header .left dt {
+                font-weight: 600;
+                font-size: 34px;
+                margin-bottom: 6px;
+            }
+            .container .header .left dd {
+                font-weight: 600;
+                font-size: 18px;
+            }
+            .container .header .right {
+                color: #000;
+            }
+            .container .header .right dt {
+                font-size: 14px;
+            }
+
+            /*
+            ** .main
+            */
+            .container .main {
+                margin-bottom: 130px;
+            }
+            .container .main .section {
+                margin-bottom: 18px;
+            }
+            .container .main .section .title {
+                color: #e07668;
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 8px;
+            }
+            .container .main .section .box {
+                width: 100%;
+                border: 2px solid #90c6de;
+            }
+            .container .main .section .box thead tr,
+            .container .main .section .box tbody tr {
+                border-bottom: 2px solid #90c6de;
+            }
+            .container .main .section .box thead tr th,
+            .container .main .section .box tbody tr th,
+            .container .main .section .box thead tr td,
+            .container .main .section .box tbody tr td {
+                padding: 2px 12px;
+            }
+            .container .main .section .box thead tr th:not(:nth-last-of-type(1)),
+            .container .main .section .box tbody tr th:not(:nth-last-of-type(1)),
+            .container .main .section .box thead tr td:not(:nth-last-of-type(1)),
+            .container .main .section .box tbody tr td:not(:nth-last-of-type(1)) {
+                border-right: 2px solid #90c6de;
+            }
+            .container .main .section .box thead tr th,
+            .container .main .section .box tbody tr th {
+                color: #000;
+                font-weight: 600;
+                font-size: 16px;
+            }
+            .container .main .section .box thead tr td,
+            .container .main .section .box tbody tr td {
+                color: #000;
+            }
+            .container .main .section .box thead tr .uppercase,
+            .container .main .section .box tbody tr .uppercase {
+                width: 33.33333333%;
+                text-transform: uppercase;
+            }
+            .container .main .section .box thead tr .status,
+            .container .main .section .box tbody tr .status {
+                color: #f26e70;
+            }
+            .container .main .section .box thead tr .desc,
+            .container .main .section .box tbody tr .desc {
+                margin-bottom: 20px;
+            }
+            .container .main .section .box thead tr .strong,
+            .container .main .section .box tbody tr .strong {
+                font-weight: 600;
+            }
+
+            /*
+            ** .footer
+            */
+            .container .footer {
+                padding: 0px 90px;
+                text-align: center;
+                color: #123b59;
+            }
+            .container .footer p {
+                font-size: 14px;
+                font-weight: 600;
+                margin-bottom: 18px;
+            }
+            .container .footer div {
+                font-size: 12px;
+                line-height: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <header class="header">
+            <dl class="block left">
+                <dt>Biotia</dt>
+                <dd>BIOTIA TEST REPORT</dd>
+                <dd>BioFire® Respiratory Panel 2.1</dd>
+            </dl>
+            <dl class="block right">
+                <dt>Patient: Eszter Szöllősi Accession Number: 2491</dt>
+            </dl>
+        </header>
+        <main class="main">
+            <section class="section">
+                <table class="box">
+                    <thead>
+                        <tr>
+                            <th class="uppercase">ORDERING</th>
+                            <th class="uppercase">SAMPLE</th>
+                            <th class="uppercase">PATIENT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div>Institution: Salk Institute for Biological Studies </div>
+                                <div>Physician: Eszter Szöllősi </div>
+                                <div>Address: 1100 WILFORD HALL LOOP BLDG 4554 JBSA LACKLAND TX 782365638</div>
+                                <div>Phone Number: 210-292-6225 </div>
+                                <div>Email: eszter.szollosi@abesse.hu</div>
+                            </td>
+                            <td>
+                                <div>Specimen Type: Blood</div>
+                                <div>Collection Date: 10/30/2020</div>
+                                <div>Received By Lab:</div>
+                                <div>Run Date: 08/04/2020</div>
+                                <div>Report Date: 11/02/2020</div>
+                            </td>
+                            <td>
+                                <div>Name: Eszter Szöllősi</div>
+                                <div>DOB: 01/01/2020</div>
+                                <div>Sex: Female</div>
+                                <div>HN/MRN: 4512</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="section">
+                <h5 class="title">RESULTS SUMMARY</h5>
+                <table class="box">
+                <tbody>
+                    <tr>
+                        <td>Detected: Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)</td>
+                        <td>Controls: Passed</td>
+                    </tr>
+                </tbody>
+                </table>
+            </section>
+
+            <section class="section">
+                <h5 class="title">DETAILED RESULTS</h5>
+                <table class="box">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Viruses</th>
+                            <th>Results</th>
+                            <th>Reference Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>+</td>
+                            <td>Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)</td>
+                            <td class="status">Detected </td>
+                            <td>Not Detected</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section class="section">
+                <h5 class="title">ADDITIONAL INFORMATION</h5>
+                <table class="box">
+                    <tr>
+                        <td>
+                            <p class="desc">
+                                The BioFire® Respiratory Panel 2.1 is a qualitative, multiplexed, nucleic acid-based in-vitro diagnostic test. This assay is performed
+                                using the FDA-cleared FilmArray Respiratory Panel 2.1 (BioFire Diangnostics, Inc.).
+                            </p>
+                            <p class="desc">
+                                <strong class="strong">DISCLAIMER:</strong> The reported microbial organisms or genetic variants may or may not be the cause of symptoms or disease. The report
+                                should be interpreted within the context of clinical information, medical history, epidemiological findings, and other laboratory results
+                            </p>
+                            <p class="desc">
+                                This test was developed and its performance characteristics determined by BioFire Diagnostics. The test is performed in the Biotia
+                                Laboratory which is certified under the Clinical Laboratory Improvement Amendments of 1988 (CLIA ’88) and is accredited to perform
+                                high-complexity clinical laboratory testing.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>Report Status: Final • Page 1 of 1</p>
+            <div>
+                © Biotia Inc. • Caitlin Otto, PhD, Lab Director • CLIA ID 33D2180921 • PFI 9518 • 140 58th Street Building A Suite 8J, Brooklyn, 11220, NYContact: clinicalsupport@biotia.io
+            </div>
+        </footer>
+    </div>
+    </body>
+</html>

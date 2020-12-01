@@ -2,20 +2,31 @@
   <header class="g-header">
     <div class="header-inner">
       <nav class="nav-wrap">
-        <div class="nav-logo">
+        <div class="nav-logo"></div>
 
-        </div>
         <ul class="nav-list">
           <li class="nav-item" *ngFor="let nav of navList">{{nav.name}}</li>
         </ul>
-        <div class="nav-search">
 
+        <div class="nav-search">
+          <nz-input-group [nzSuffix]="suffixIconSearch">
+            <input type="text" nz-input placeholder="视频/音乐/电台/用户" />
+          </nz-input-group>
+          <ng-template #suffixIconSearch>
+            <i nz-icon type="search"></i>
+          </ng-template>
+        </div>
+
+        <div class="nav-login">
+          <a>登录</a>
+          <a>注册</a>
         </div>
       </nav>
     </div>
   </header>
   <router-outlet></router-outlet>
   <footer class="g-footer">
-    12
+    2020-04-01
   </footer>
 </main>
+<app-player></app-player>

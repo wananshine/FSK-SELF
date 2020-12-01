@@ -1,0 +1,39 @@
+<div class="player">
+    <div class="lock">
+        <div class="bg"></div>
+        <div class="wrap">
+            <div class="btns">
+                <a data-action="prev" class="prev">上一首</a>
+                <a data-action="play" class="play" (click)="handlePlay()">播放/暂停</a>
+                <a data-action="next" class="next">下一首</a>
+            </div>
+            <div class="head" title="歌曲封面图">
+                <img src="http://p3.music.126.net/Wu9Dow37-p3Y8FRp3tJ1MQ==/109951164485322944.jpg?param=34y34" />
+                <a class="mask"></a>
+            </div>
+            <div class="play">
+                <div class="words" title="歌曲信息">
+                    <a class="name" title="歌曲曲目">Smoke on the Water</a>
+                    <span class="by" title="歌曲作者">Deep Purple</span>
+                    <a class="src" title="歌曲链接"></a>
+                </div>
+                <div class="bar">
+                    <!-- <div class="barbg" title="播放进度条">
+                        <div class="rdy"></div>
+                        <div class="cur" (click)="clickCurrent()">
+                            <span class="btn"></span>
+                        </div>
+                    </div> -->
+                    <!-- 滑块组件 -->
+                    <app-slider [(ngModel)]="sliderValue"></app-slider>
+                    <div class="time" title="播放时间">
+                        <em>00:53</em> / {{sliderValue}}
+                    </div>
+                </div>
+            </div>
+            <div class="oper"></div>
+            <div class="ctrl"></div>
+        </div>
+    </div>
+    
+</div>

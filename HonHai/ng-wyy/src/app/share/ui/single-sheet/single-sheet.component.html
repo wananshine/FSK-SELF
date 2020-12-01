@@ -1,0 +1,15 @@
+<ng-container>
+    <div class="sheet-cover">
+        <img [src]="sheet.picUrl" [alt]="sheet.name">
+        <div class="sheet-bottom">
+            <div class="num">
+                <i nz-icon nzType="customer-service" nzTheme="outline"></i>
+                <span>{{sheet.playCount | playCount}}</span>
+            </div>
+            <i nz-icon nzType="play-circle" nzTheme="outline" class="player" (click)="playSheet(sheet.id)">@</i>
+        </div>
+    </div>
+    <div class="sheet-name">
+        {{sheet.name}}
+    </div>
+</ng-container>

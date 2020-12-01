@@ -1,10 +1,12 @@
 import { Component, OnInit, Pipe, PipeTransform, ViewChild } from '@angular/core';
 import { HomeService } from "src/app/services/home.service";
 import { SingerService } from "src/app/services/singer.service";
+import { SheetService } from 'src/app/services/sheet.service';
 import { Banner, HotTag, SongSheet, Singer } from "../../services/data-types/common.types";
 import { ActivatedRoute } from '@angular/router';
 import { map } from 'rxjs/internal/operators';
 import { NzCarouselComponent } from 'ng-zorro-antd';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -36,7 +38,8 @@ export class HomeComponent implements OnInit {
   // @ViewChild(NzCarouselComponent, { static: true } private nzCarousel: NzCarouselComponent)
   
   constructor(
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private sheetService: SheetService
   ) {
 
     this.route.data.pipe(map(res => res.homeDatas)).subscribe(([banners, hotTag, songSheetList, singers]) => { 
@@ -47,6 +50,21 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
+  
+  computed(value: number): number | string{ 
+    if (value > 10000) { 
+      return Math.floor(value / 10000) + '万'
+    } else { 
+      return value;
+    }
+  }
+
+
+  onPlaySheet(id: number) {
+    this.sheetService.playSheet(id).subscribe(res => { 
+      console.log(res);
+    })
+  }
 
 }
