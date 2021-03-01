@@ -119,6 +119,7 @@ export default class ProCard extends BaseComponent {
           return v;
       }).slice(0, 5);  //
 
+
       //表头
       const columns = createColumns(this, employees);
 

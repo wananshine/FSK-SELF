@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="test2:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1aabf2a4-e91a-47fd-8981-094e6b3f8934" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/.idea/typescript-compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/.idea/typescript-compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/React +Typescript/wyy-react+ts/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/WhiteBoard/XBoard" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/WhiteBoard/XBoard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/dva-boot-admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/dva-boot-admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/dva-boot-admin/src/assets/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/dva-boot-admin/src/assets/images/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/dva-boot-admin/src/routes/ViewScreen/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/dva-boot-admin/src/routes/ViewScreen/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/dva-boot-admin/src/routes/ViewScreen/components/index.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/dva-boot-admin/src/routes/ViewScreen/components/index.module.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/ng-wyy/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/ng-wyy/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/ng-wyy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/ng-wyy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/core/core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/core/core.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/pages/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/pages/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/share/ui/player/player.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/share/ui/player/player.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/share/ui/player/player.component.less" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/share/ui/player/player.component.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/share/ui/slider/slider.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../HonHai/ng-wyy/src/app/share/ui/slider/slider.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/hello/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/hello/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/hello/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/hello/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workspace/hello/src/hello/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WhiteBoard/XBoard" beforeDir="false" afterPath="$PROJECT_DIR$/../../WhiteBoard/XBoard" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1oh4JNrO0K34m9TJ4WobTwRLcGI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-1" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.0.2">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.0.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.2" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="test2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/test2_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8c21ce4b-e392-43fd-a72b-6d0055346fb1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53196" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="test2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.22" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8c21ce4b-e392-43fd-a72b-6d0055346fb1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53196" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 10.0.21" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="test2:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/test2_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8c21ce4b-e392-43fd-a72b-6d0055346fb1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53196" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="test2:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aabf2a4-e91a-47fd-8981-094e6b3f8934" name="Default Changelist" comment="" />
+      <created>1613725416085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613725416085</updated>
+      <workItem from="1613725417163" duration="878000" />
+      <workItem from="1613953095874" duration="3062000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

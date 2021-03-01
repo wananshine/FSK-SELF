@@ -1,4 +1,4 @@
-<div class="barbg" title="播放进度条" #Slider>
+<div class="barbg" title="播放进度条" #Slider [class.slider-vertical]="Vertical">
     <app-slider-track [Vertical]="Vertical" [Length]="offset"></app-slider-track>
     <app-slider-handle [Vertical]="Vertical" [Offset]="offset"></app-slider-handle>
     <!-- <div class="rdy"></div> -->

@@ -14,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setupProxy.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setupProxy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/setupProxy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="377">
               <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -26,52 +26,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/SystemSettings/ProLineTask/components/index.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#80#0" expanded="true" />
-                <element signature="e#632#672#0" expanded="true" />
-                <element signature="e#4148#5042#0" />
-                <element signature="e#5074#6190#0" />
-              </folding>
+            <state relative-caret-position="261">
+              <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/index.less">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.module.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/index.module.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicLayout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layouts/BasicLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NavBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2610">
+              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="columns.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/columns.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/TaskManage/model/index.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="151" column="27" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-                <element signature="e#2535#2791#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/SystemSettings/ProLineTask/model/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="141" column="27" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-                <element signature="e#4013#4543#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/WarehouseInput/components/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="130" column="50" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="50" />
+            <state relative-caret-position="87">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -79,7 +88,7 @@
       <file leaf-file-name="ScreenLock.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Pages/ScreenLock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="1131">
               <caret line="48" column="23" selection-start-line="48" selection-end-line="49" />
             </state>
           </provider>
@@ -88,38 +97,8 @@
       <file leaf-file-name="LeftSideBar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="8149">
               <caret line="292" column="67" selection-start-line="292" selection-start-column="67" selection-end-line="292" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/WarehouseInput/model/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2054">
-              <caret line="251" selection-start-line="251" selection-end-line="251" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/SystemSettings/ProLinePosition/components/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="52" column="15" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/SystemSettings/ProLineTask/service/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -128,9 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>locationIds</find>
-      <find>lineId</find>
-      <find>dataLocKeySuccess</find>
       <find>productLine</find>
       <find>locationId</find>
       <find>proLocSelectedKeys</find>
@@ -158,6 +134,9 @@
       <find>dataTaskSuccess</find>
       <find>console.log</find>
       <find>LANIF</find>
+      <find>columns</find>
+      <find>dataSource</find>
+      <find>!important</find>
     </findStrings>
     <dirStrings>
       <dir>E:\S\Dva-admin\dva-boot-admin\src\routes\SystemSettings\locationInformation</dir>
@@ -192,10 +171,8 @@
         <option value="$PROJECT_DIR$/src/routes/ViewScreen/index.js" />
         <option value="$PROJECT_DIR$/src/routes/ViewScreen/model/index.js" />
         <option value="$PROJECT_DIR$/src/routes/ViewScreen/components/columns.js" />
-        <option value="$PROJECT_DIR$/src/routes/ViewScreen/components/index.module.less" />
         <option value="$PROJECT_DIR$/src/routes/DataCheck/components/index.js" />
         <option value="$PROJECT_DIR$/src/routes/SystemSettings/DataDictionary/components/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/ViewScreen/components/index.js" />
         <option value="$PROJECT_DIR$/src/routes/TaskNumber/index.js" />
         <option value="$PROJECT_DIR$/src/routes/TaskManage/components/index.js" />
         <option value="$PROJECT_DIR$/src/config.js" />
@@ -223,6 +200,8 @@
         <option value="$PROJECT_DIR$/src/components/Pages/ScreenLock.js" />
         <option value="$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js" />
         <option value="$PROJECT_DIR$/src/setupProxy.js" />
+        <option value="$PROJECT_DIR$/src/routes/ViewScreen/components/index.module.less" />
+        <option value="$PROJECT_DIR$/src/routes/ViewScreen/components/index.js" />
       </list>
     </option>
   </component>
@@ -243,8 +222,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="196" />
-    <option name="y" value="77" />
+    <option name="x" value="238" />
+    <option name="y" value="82" />
     <option name="width" value="1473" />
     <option name="height" value="952" />
   </component>
@@ -253,6 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,81 +249,51 @@
               <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="__mocks__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="SystemSettings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="SystemSettings" type="462c0819:PsiDirectoryNode" />
-              <item name="ProLineTask" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="SystemSettings" type="462c0819:PsiDirectoryNode" />
-              <item name="ProLineTask" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="SystemSettings" type="462c0819:PsiDirectoryNode" />
-              <item name="ProLineTask" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="NavBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="SystemSettings" type="462c0819:PsiDirectoryNode" />
-              <item name="ProLineTask" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="WarehouseInput" type="462c0819:PsiDirectoryNode" />
+              <item name="ViewScreen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dva-boot-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="dva-boot-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="WarehouseInput" type="462c0819:PsiDirectoryNode" />
+              <item name="ViewScreen" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/www/web/PSS/H5/pss-dev3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -409,25 +359,26 @@
       <workItem from="1600652649696" duration="599000" />
       <workItem from="1601942626549" duration="692000" />
       <workItem from="1602576886198" duration="27866000" />
+      <workItem from="1607931541504" duration="3043000" />
+      <workItem from="1607990716012" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345307000" />
+    <option name="totallyTimeSpent" value="348945000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="77" width="1473" height="952" extended-state="0" />
+    <frame x="238" y="82" width="1473" height="952" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2543554" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25365853" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5731544" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24324325" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24324325" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
@@ -437,6 +388,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5731544" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,16 +437,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/routes/Login/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="109" column="30" lean-forward="true" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/DataCheck/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -502,27 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1189">
           <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/columns.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/index.module.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -585,13 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="116" column="29" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/TaskNumber/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -629,13 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
@@ -699,11 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
           <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#1025#1143#0" />
-            <element signature="e#1160#1234#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,10 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1682">
           <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-          <folding>
-            <element signature="e#312#350#0" expanded="true" />
-            <element signature="e#602#657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,43 +667,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/SystemSettings/ProLinePosition/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
+        <state relative-caret-position="1305">
           <caret line="52" column="15" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/TaskManage/model/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="4147">
           <caret line="151" column="27" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#2535#2791#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/SystemSettings/ProLineTask/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="667">
           <caret line="30" column="19" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#80#0" expanded="true" />
-            <element signature="e#632#672#0" expanded="true" />
-            <element signature="e#4148#5042#0" />
-            <element signature="e#5074#6190#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/SystemSettings/ProLineTask/model/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
+        <state relative-caret-position="3828">
           <caret line="141" column="27" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#4013#4543#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,42 +702,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/WarehouseInput/model/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2054">
+        <state relative-caret-position="7018">
           <caret line="251" selection-start-line="251" selection-end-line="251" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/WarehouseInput/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="3538">
           <caret line="130" column="50" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Pages/ScreenLock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="1131">
           <caret line="48" column="23" selection-start-line="48" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SideBar/LeftSideBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="8149">
           <caret line="292" column="67" selection-start-line="292" selection-start-column="67" selection-end-line="292" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/setupProxy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="377">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/columns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/index.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/index.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/BasicLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ViewScreen/components/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="113" column="33" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
         </state>
       </provider>
     </entry>
