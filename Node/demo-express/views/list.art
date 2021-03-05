@@ -1,0 +1,7 @@
+<ul>
+	{{each data}}
+		<li>
+			{{$index}} {{$value}}
+		</li>
+	{{/each}}
+</ul>
