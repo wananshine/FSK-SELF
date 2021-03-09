@@ -3,9 +3,11 @@ const express = require('express');
 const app = express();
 
 const indexRouter = require('./router/index');
+const socket = require('./socket/index');
 
 
 const port = 7788;
+
 
 //parse application/json
 app.use(express.json());

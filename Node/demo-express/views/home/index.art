@@ -1,0 +1,15 @@
+{{extend '../../public/index.html'}}
+
+{{block 'title'}}
+    {{title}}
+{{/block}}
+
+{{block 'link'}}
+    <link rel="stylesheet" type="text/css" href="./stylesheets/normalize.css" />
+{{/block}}
+
+{{block 'content'}}
+<main>
+    home
+</main>
+{{/block}}

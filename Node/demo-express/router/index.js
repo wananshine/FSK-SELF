@@ -1,18 +1,27 @@
 const express = require('express');
 
-const { list } = require('../controller/index')
 
 //路由中间件
 const router = express.Router();
+const sqlQuery = require('../postgreSql')
+const { list, token, users, plusUsers, home } = require('../controller')
 
-
-
-router.get('/', (req, res, next)=>{
-	res.send("hello");
-})
 
 
 router.get('/api/list', list);
+
+router.get('/api/token', token);
+
+router.get('/api/users', users);
+
+router.post('/api/plusUsers', plusUsers);
+
+router.get('/home', home);
+
+
+//router.get('/', (req, res, next)=>{
+//	res.send("hello");
+//})
 
 
 router.get('/index', (req, res, next)=>{

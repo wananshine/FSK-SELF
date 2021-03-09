@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width-device-width, initial-scale=1.0" >
-		<title>title</title>
+		<title>{{block 'title'}}title{{/block}}</title>
+		{{block 'link'}}{{/block}}
 	</head>
 	<body>
-		<p>你讲什么</p>
-		<a href="/api/list">不好意思，走错路了</a>
+		{{block 'content'}}{{/block}}
 	</body>
 </html>
