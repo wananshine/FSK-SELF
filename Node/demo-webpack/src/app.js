@@ -1,2 +1,3 @@
-const x = 100;
-console.log(x)
+import route from './routes'
+console.log(route);
+route.go('/')

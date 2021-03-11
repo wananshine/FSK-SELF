@@ -1,0 +1,4 @@
+【重点】使用npm安装art-template后，必须把
+把项目下的node_modules\art-template\lib复制到磁盘根目录，也是对应 盘符:\node_modules\art-template\lib
+否则载入art模板时会报错：Can't resolve "node_modules\art-template\lib\runtime.js"
+1> 具体参看下面的 已知问题 3）Can't resolve "node_modules\art-template\lib\runtime.js"
