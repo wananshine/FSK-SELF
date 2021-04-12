@@ -1,3 +1,4 @@
+import React, { Component, PureComponent } from 'react';
 import { connect, router } from 'dva';
 import Blank from './components'
 import Model from './model';
@@ -9,6 +10,16 @@ const mapStateToProps = (state) => Model
 
 //通过这种方式来把model层的数据传递到当前组件了
 // @connect(({ blank }) =>(blank))
-// export default Test;
+@connect()
+class Test extends Component {
+  render (){
+        return (
+            <div>
+                 <p>空白页</p>
+            </div>
+        )
+    }
+}
+export default Test;
 
-export default connect(mapStateToProps)(Blank);
+// export default connect(mapStateToProps)(Blank);
