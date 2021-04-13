@@ -42,6 +42,7 @@ dynamic.setDefaultLoadingComponent(() => config.router.loading);
 app.model(require('./models/global').default);
 
 // -> 初始化路由
+console.log('routes:',createRoutes, createRoutes(app))
 app.router(({ history, app }) => (
   <ConfigProvider locale={zh_CN}>
     <Router history={history}>{createRoutes(app)}</Router>

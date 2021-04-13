@@ -202,6 +202,7 @@ export default class BasicLayout extends React.PureComponent {
     const { routerData, location, global } = this.props;
     const { menu, flatMenu } = global;
     const { childRoutes } = routerData;
+    console.log(123,this.props)
     const classnames = cx('basic-layout', 'full-layout', {
       fixed: theme.layout && theme.layout.indexOf('fixedSidebar') !== -1,
       'fixed-header':

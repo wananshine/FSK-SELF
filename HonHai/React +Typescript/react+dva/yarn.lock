@@ -2447,10 +2447,10 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@^4.15.0:
-  version "4.15.0"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-4.15.0.tgz#4bfcd7eba7ae7812d95bcd391bf113a32e5a2143"
-  integrity sha512-24HMixmQAhCyqb0ND5wX5DYRTbPactCT36mfVKowqgr77eT7XQ59Uu6aS513mbeiVhXcHrNlrlCKNZBSeEDgPg==
+antd@^4.15.1:
+  version "4.15.1"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-4.15.1.tgz#1ba1e0108866e1be03d3e8fb351582ade17d88db"
+  integrity sha512-zTZz8GY9yERNjSnH6xWU3Rw5sC3RtHEs/LOTKcSMTtU3Q5jHXIbAHKd1C6bYLQT6Ru75p+/UyKvJoNip/ax/WQ==
   dependencies:
     "@ant-design/colors" "^6.0.0"
     "@ant-design/icons" "^4.6.2"
@@ -2459,7 +2459,7 @@ antd@^4.15.0:
     array-tree-filter "^2.1.0"
     classnames "^2.2.6"
     copy-to-clipboard "^3.2.0"
-    lodash "^4.17.20"
+    lodash "^4.17.21"
     moment "^2.25.3"
     rc-cascader "~1.4.0"
     rc-checkbox "~2.3.0"
@@ -2809,6 +2809,14 @@ babel-plugin-dynamic-import-node@^2.3.3:
   integrity sha512-jZVI+s9Zg3IqA/kdi0i6UDCybUI3aSBLnglhYbSSjKlV7yF1F/5LWv8MakQmvYpnbJDS6fcBL2KzHSxNCMtWSQ==
   dependencies:
     object.assign "^4.1.0"
+
+babel-plugin-import@^1.13.3:
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-import/-/babel-plugin-import-1.13.3.tgz#9dbbba7d1ac72bd412917a830d445e00941d26d7"
+  integrity sha512-1qCWdljJOrDRH/ybaCZuDgySii4yYrtQ8OJQwrcDqdt0y67N30ng3X3nABg6j7gR7qUJgcMa9OMhc4AGViDwWw==
+  dependencies:
+    "@babel/helper-module-imports" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
 
 babel-plugin-istanbul@^6.0.0:
   version "6.0.0"
@@ -4166,6 +4174,13 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.7.tgz#2a5fb75e1015e84dd15692f71e89a1450290950b"
   integrity sha512-KxnUB0ZMlnUWCsx2Z8MUsr6qV6ja1w9ArPErJaJaF8a5SOWoHLIszeCTKGRGRgtLgYrs1E8CHkNSP1VZTTPc9g==
 
+customize-cra@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/customize-cra/-/customize-cra-1.0.0.tgz#73286563631aa08127ad4d30a2e3c89cf4e93c8d"
+  integrity sha512-DbtaLuy59224U+xCiukkxSq8clq++MOtJ1Et7LED1fLszWe88EoblEYFBJ895sB1mC6B4uu3xPT/IjClELhMbA==
+  dependencies:
+    lodash.flow "^3.5.0"
+
 cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
@@ -4201,9 +4216,9 @@ data-urls@^2.0.0:
     whatwg-url "^8.0.0"
 
 date-fns@^2.15.0:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.20.0.tgz#df00ba9177fbea22d88010b5844ecc91e9e03ceb"
-  integrity sha512-nmA7y6aDH5+fknfJ0G77HQzUSfTPpq4ifq+c9blP9d+X9zs3kNjxC+t3pcbBMGTp262a6PJB3RVjLlxIgoMI+Q==
+  version "2.20.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.20.1.tgz#7e60b7035284a5f83e37500376e738d9f49ecfd3"
+  integrity sha512-8P5M8Kxbnovd0zfvOs7ipkiVJ3/zZQ0F/nrBW4x5E+I0uAZVZ80h6CKd24fSXQ5TLK5hXMtI4yb2O5rEZdUt2A==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
@@ -7385,6 +7400,11 @@ lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
+
+lodash.flow@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.flow/-/lodash.flow-3.5.0.tgz#87bf40292b8cf83e4e8ce1a3ae4209e20071675a"
+  integrity sha1-h79AKSuM+D5OjOGjrkIJ4gBxZ1o=
 
 lodash.memoize@^4.1.2:
   version "4.1.2"

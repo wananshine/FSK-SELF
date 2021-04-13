@@ -39,7 +39,6 @@ class Login extends Component {
   };
 
   render() {
-      console.log('this.props：',this.props)
     const { login, loading, form } = this.props;
     const { getFieldDecorator } = form;
 
@@ -50,8 +49,6 @@ class Login extends Component {
             <Form onSubmit={this.handleSubmit} className="login-form">
               <div className="user-img">
                 <img src={logoImg} alt="logo" />
-                {/*<b>蒋海萍</b>*/}
-                {/*<span></span>*/}
               </div>
               <FormItem>
                 {getFieldDecorator('username', {

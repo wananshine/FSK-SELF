@@ -20,7 +20,6 @@ export default {
                 const response =  dispatch({
                     type: 'getCode'
                 });
-                console.log('response:',response)
             } catch (e) {
             }
 
@@ -40,7 +39,6 @@ export default {
                       payload: response,
                   });
               }
-              console.log('response:',response);
           } catch (e) {
           }
     },

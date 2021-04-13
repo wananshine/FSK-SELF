@@ -24,6 +24,5 @@ export default Common({
 
 //产线信息
 export async function ApiPicLineInfo(payload) {
-    console.log('产线信息ApiPicLineInfo:',payload);
     return $$.get(`/system/dict/data/list?dictType=${payload.dictType}&pageNum=${payload.pageNum}&pageSize=${payload.pageSize}`)
 }

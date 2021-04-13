@@ -75,5 +75,4 @@ const routesConfig = app => [
         ]
     }
 ];
-
 export default app => createRoutes(app, routesConfig);

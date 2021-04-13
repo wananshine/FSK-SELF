@@ -10,7 +10,7 @@ import $$ from 'cmn-utils';
  */
 let LOADED = false;
 export default {
-  namespace: 'TestPage',
+  namespace: 'BlankData',
 
   state: {
     pageData: []
