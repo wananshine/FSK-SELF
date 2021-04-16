@@ -33,12 +33,10 @@ export const createRoutes = (app, routesConfig) => {
         return p.concat(n);
       }
     }, []);
-    console.log('1-3', routesConfig(app))
-    console.log('1-4', routes)
   return <Switch>{routes}</Switch>;
 };
 // 路由映射表
-window.dva_router_pathMap = {};
+window.dva_router_pathMap = {}
 /**
  * 生成单个路由
  * @param {*} app
@@ -54,7 +52,6 @@ export const createRoute = (app, routesConfig) => {
     ...otherProps
   } = routesConfig(app);
 
-  console.log('2-1', Comp.$$typeof && Comp)
 
   if (path && path !== '/') {
     window.dva_router_pathMap[path] = { path, title, ...otherProps };

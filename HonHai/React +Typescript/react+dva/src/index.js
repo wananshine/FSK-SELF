@@ -23,9 +23,12 @@ import reportWebVitals from './reportWebVitals';
 // 创建应用
 const app = dva({
   history: createHashHistory({
-    basename: homepage.startsWith('/') ? homepage : ''
+    basename: '/' //homepage.startsWith('/') ? homepage : ''
   })
 });
+
+// 使用mock数据
+require('./_mocks_');
 
 // -> 注册局部模型
 // app.model(require('./routes/Test/model').default);

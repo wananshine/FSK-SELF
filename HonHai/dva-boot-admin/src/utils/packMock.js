@@ -36,6 +36,7 @@ export default (...mocks) => {
    * 配置如果没拦截到直接走原生的fetch方法
    */
 
+
   fetchMock.config = {
     ...fetchMock.config,
     fallbackToNetwork: true,
@@ -43,6 +44,7 @@ export default (...mocks) => {
   };
 
   mocks.forEach(mockFile => {
+
     let mockAPIs = {};
     if ($$.isFunction(mockFile)) {
       mockAPIs = mockFile({ fetchMock, delay, mock, toSuccess, toError });

@@ -1,9 +1,11 @@
 import React from 'react';
-import dva from 'dva';
 import dynamic from 'dva/dynamic';
-import { Router, Route, Switch } from 'dva/router';
+import { Router, Route, Switch, Redirect } from 'dva/router';
 import $$ from 'cmn-utils';
 import config from '../config';
+
+// 路由映射表
+window.dva_router_pathMap = {};
 
 
 /**
@@ -38,13 +40,12 @@ export const createRoutes = (app, routesConfig) => {
     }, []);
 
     routesConfig(app).map(config =>{
-      console.log('1-3', config)
       return createRoute(app, () => config)
     })
 
-      console.log('1-4', routes)
   return <Switch>{routes}</Switch>;
 };
+
 
 
 /**
@@ -62,6 +63,26 @@ export const createRoute = (app, routesConfig) => {
     ...otherProps
   } = routesConfig(app);
 
+
+  if (path && path !== '/') {
+    window.dva_router_pathMap[path] = { path, title, ...otherProps };
+    // 为子路由增加parentPath
+    if (otherProps.childRoutes && otherProps.childRoutes.length) {
+      otherProps.childRoutes.forEach(item => {
+        if (window.dva_router_pathMap[item.key]) {
+          window.dva_router_pathMap[item.key].parentPath = path;
+        }
+      });
+    }
+  }
+
+  // 把Redirect放到第一个
+  if (indexRoute && $$.isArray(otherProps.childRoutes)) {
+    otherProps.childRoutes.unshift(
+      <Redirect key={path + '_redirect'} exact from={path} to={indexRoute} />
+    );
+  }
+
   const routeProps = {
     key: path || $$.randomStr(4),
     render: props => {
@@ -71,7 +92,7 @@ export const createRoute = (app, routesConfig) => {
     }
   };
 
-  return <Route path={path} {...routeProps} />;
+  return <Route path={path} exact={!!exact} {...routeProps} />;
 };
 
 

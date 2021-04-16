@@ -77,10 +77,10 @@ export default class BasicLayout extends React.PureComponent {
 
   // 检查有户是否登录
   checkLoginState() {
-      const Token = $$.getStore('Token');
-      if (!Token) {
-          this.props.dispatch(routerRedux.replace('/sign/login'));
-      }
+      // const Token = $$.getStore('Token');
+      // if (!Token) {
+      //     this.props.dispatch(routerRedux.replace('/sign/login'));
+      // }
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -202,7 +202,6 @@ export default class BasicLayout extends React.PureComponent {
     const { routerData, location, global } = this.props;
     const { menu, flatMenu } = global;
     const { childRoutes } = routerData;
-    console.log(123,this.props)
     const classnames = cx('basic-layout', 'full-layout', {
       fixed: theme.layout && theme.layout.indexOf('fixedSidebar') !== -1,
       'fixed-header':

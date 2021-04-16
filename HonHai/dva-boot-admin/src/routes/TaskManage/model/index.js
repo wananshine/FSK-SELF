@@ -149,7 +149,6 @@ export default modelEnhance({
         *update({ payload }, { call, put, select }) {
             try {
                 const response = yield call(ApitaskUpdate, payload);
-                console.log('update:',response);
                 const res = yield select(state => state.TaskManageData);
                 yield put({
                     type: 'getPageInfo',

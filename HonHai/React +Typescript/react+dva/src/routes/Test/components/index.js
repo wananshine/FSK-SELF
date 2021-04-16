@@ -1,7 +1,6 @@
 import React, { Component, PureComponent } from 'react';
 import { connect } from 'dva';
-import PropTypes from 'prop-types';
-import { Table, Popconfirm, Button } from 'antd';
+import { Button } from 'antd';
 
 @connect(({ test }) => ({
   test
@@ -29,12 +28,22 @@ class Test extends PureComponent {
           <div>
             测试页面
             <Button onClick={()=>{ this.handleDelect() }}>Delete</Button>
+            <TestChildren />
+            <Tpl />
           </div>
         )
     }
 };
 
-const tpl = ({ dispatch }) => {
+class TestChildren extends Component{
+  render(){
+    return(
+      <div>test</div>
+    )
+  }
+};
+
+const Tpl = ({ dispatch }) => {
   return (
     <div>123</div>
   );
